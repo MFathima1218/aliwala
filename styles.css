@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    width: 100vh;
+    font-family: sans-serif;
+}
+
+header{
+    display :flex;
+    justify-content: space-between;
+}
+.first-part{
+    background-image: url(Mobile-images/Hero-banner-mobile.png);
+    height: 80rem; 
+    background-position: center center;
+    background-size: cover;
+}
+.first-part h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding-top:180px ;
+    margin-top: 80px;
+}
+img[alt="apple"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 150px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+img[alt="google"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 150px;
+}
+
+.sec-part{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    margin: 70px;
+}
+.sec-part img{
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.sec-part h1{
+    color: #013769;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 20px 20px 10px 20px;
+}
+.sec-part p{
+    color: #666666;
+    font-size: 30px;
+    padding: 0 20px 20px 20px;
+}
+.third-part{
+    
+}
+.third-part h1{
+    font-size: 60px;
+    color: white;
+    padding-top: 500px;
+    margin-left: 60px;
+}
+.third-part button{
+    border-radius: 50px;
+    background: none;
+    font-size: 50px;
+    color: white;
+    border-color: white;
+    padding: 20px;
+    margin-left: 40px;
+  margin-top: 50px;
+}
+
+.Home-office{
+    background-image: url(Mobile-images/Home-office-mobile.png);
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.notebooks{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 800px;
+    background-image: url(Mobile-images/Notebooks-mobile.png);
+}
+.pens{
+    width: 100%;
+    height: 800px;
+    background-image: url(Mobile-images/Pens-mobile.png);
+}
+.tapes{ 
+     margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 800px;
+    background-image: url(Mobile-images/Tape-mobile.png);
+}
+
+.part-4{
+    display: flex;
+    flex-direction: row;
+}
+ img [alt="pen-holder"]{
+    width: 15px;
+    height: 15px;
+}
+
+/* deal of the day */
+.deal
+.clock span{
+    font-size: 100px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.clock span::after{
+     font-size: 25px;
+     position:absolute ;
+     bottom: -5px;
+     left: 50%;
+     transform: translate(-50%);
+}
+#hrs::after{
+    content: 'Hours';
+}
+#min::after{
+    content: 'Minutes';
+}
+#sec::after{
+    content: 'Seconds';
+}
+
+
+img[alt="table-group"]{
+    width: 100%;
+}
